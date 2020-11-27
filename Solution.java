@@ -1,3 +1,11 @@
+/*Intuition
+
+The main idea is to delete the duplicate element. We need to travese the linked list and if you find elements are dupplicate then move the previous pointer to next value which is not repeating 
+
+Algorithm
+
+We start from begining of the list and take a previous pointer initially pointing to null. Once you found repeated value we will update the next pointer of previous node to non repeating node.
+*/
 /**
  * Definition for singly-linked list.
  * public class ListNode {
